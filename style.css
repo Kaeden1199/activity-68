@@ -57,4 +57,31 @@ input
     position: sticky;
     top: 0;
     z-index: 99999
+  list-style: none;
+    font-family: sans-serif;
+    top: 10px;
+    right: 30px;
+   cursor: pointer;
 }
+.links{
+    color:aliceblue;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-family: monospace;
+}
+.links:hover{
+    background-color: dodgerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: maroon;
+}
+
